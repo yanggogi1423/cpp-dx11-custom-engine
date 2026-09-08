@@ -1,0 +1,19 @@
+# Visual Studio local state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+
+# Build outputs
+Binaries/
+Intermediate/
+*.obj
+*.pch
+*.ilk
+*.pdb
+
+# Per-module build outputs (in case a project is built directly)
+**/Binaries/
+**/Intermediate/
