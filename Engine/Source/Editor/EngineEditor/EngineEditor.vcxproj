@@ -169,6 +169,16 @@
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>
     <ClCompile>
+      <PreprocessorDefinitions>ENGINEEDITOR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\..\..\Runtime\ApplicationCore\Public;$(MSBuildProjectDirectory)\..\..\Runtime\CoreUObject\Public;$(MSBuildProjectDirectory)\..\..\Runtime\Core\Public;$(MSBuildProjectDirectory)\..\..\Runtime\Engine\Public;$(MSBuildProjectDirectory)\..\..\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>EngineEditorPrivatePCH.h</PrecompiledHeaderFile>
     </ClCompile>

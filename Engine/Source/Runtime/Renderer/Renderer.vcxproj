@@ -165,6 +165,16 @@
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>
     <ClCompile>
+      <PreprocessorDefinitions>RENDERER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\..\Core\Public;$(MSBuildProjectDirectory)\..\Engine\Public;$(MSBuildProjectDirectory)\..\RenderCore\Public;$(MSBuildProjectDirectory)\..\RHI\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>RendererPrivatePCH.h</PrecompiledHeaderFile>
     </ClCompile>

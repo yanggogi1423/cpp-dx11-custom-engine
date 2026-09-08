@@ -168,6 +168,16 @@
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>
     <ClCompile>
+      <PreprocessorDefinitions>LAUNCH_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\..\ApplicationCore\Public;$(MSBuildProjectDirectory)\..\Core\Public;$(MSBuildProjectDirectory)\..\D3D11RHI\Public;$(MSBuildProjectDirectory)\..\Engine\Public;$(MSBuildProjectDirectory)\..\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>LaunchPrivatePCH.h</PrecompiledHeaderFile>
     </ClCompile>
