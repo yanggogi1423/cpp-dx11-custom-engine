@@ -15,12 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\LaunchAPI.h">
+    <ClInclude Include="Public\Launch\Launch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Launch\LaunchAPI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Private\EngineLoop.h"><Filter>헤더 파일</Filter></ClInclude>
     <ClInclude Include="Private\LaunchPrivatePCH.h"><Filter>헤더 파일</Filter></ClInclude>
+    <ClCompile Include="Private\EngineLoop.cpp"><Filter>소스 파일</Filter></ClCompile>
+    <ClCompile Include="Private\Launch.cpp"><Filter>소스 파일</Filter></ClCompile>
     <ClCompile Include="Private\LaunchPrivatePCH.cpp"><Filter>소스 파일</Filter></ClCompile>
   </ItemGroup>
 </Project>

@@ -163,7 +163,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\LaunchAPI.h" />
+    <ClInclude Include="Private\EngineLoop.h" />
+    <ClInclude Include="Public\Launch\Launch.h" />
+    <ClInclude Include="Public\Launch\LaunchAPI.h" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>
@@ -184,6 +186,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Private\LaunchPrivatePCH.h" />
+    <ClCompile Include="Private\EngineLoop.cpp" />
+    <ClCompile Include="Private\Launch.cpp" />
     <ClCompile Include="Private\LaunchPrivatePCH.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

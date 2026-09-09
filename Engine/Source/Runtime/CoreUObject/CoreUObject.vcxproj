@@ -151,7 +151,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\CoreUObjectAPI.h" />
+    <ClInclude Include="Public\CoreUObject\CoreUObjectAPI.h" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>

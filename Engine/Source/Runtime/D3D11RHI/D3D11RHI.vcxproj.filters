@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\D3D11RHIAPI.h">
+    <ClInclude Include="Public\D3D11RHI\D3D11RHIAPI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

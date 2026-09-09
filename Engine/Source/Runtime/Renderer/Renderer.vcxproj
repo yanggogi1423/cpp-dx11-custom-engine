@@ -160,7 +160,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\RendererAPI.h" />
+    <ClInclude Include="Public\Renderer\RendererAPI.h" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>

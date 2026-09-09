@@ -164,7 +164,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\EngineEdAPI.h" />
+    <ClInclude Include="Public\EngineEditor\EngineEdAPI.h" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>

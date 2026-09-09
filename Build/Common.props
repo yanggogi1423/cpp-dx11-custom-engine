@@ -9,7 +9,7 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeLibrary Condition="'$(Configuration)' == 'Debug'">MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeLibrary Condition="'$(Configuration)' == 'Release'">MultiThreadedDLL</RuntimeLibrary>
-      <!-- A module can include only its own Public and Private headers by default. -->
+      <!-- Public headers are included as "ModuleName/Header.h"; Private headers remain module-internal. -->
       <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\Public;$(MSBuildProjectDirectory)\Private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>

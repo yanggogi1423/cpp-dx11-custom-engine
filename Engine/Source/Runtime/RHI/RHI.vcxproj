@@ -151,7 +151,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\RHIAPI.h" />
+    <ClInclude Include="Public\RHI\RHIAPI.h" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\..\..\..\..\Build\Common.props" />
   <ItemDefinitionGroup>

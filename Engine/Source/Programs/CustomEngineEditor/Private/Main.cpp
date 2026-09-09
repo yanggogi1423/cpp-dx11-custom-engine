@@ -1,6 +1,8 @@
-#include "Launch.h"
+#include <Windows.h>
 
-int main(void)
+#include "Launch/Launch.h"
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	return GuardedMain();
+	return Launch(hInstance, nCmdShow);
 }

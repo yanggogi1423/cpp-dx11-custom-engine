@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\CoreUObjectAPI.h">
+    <ClInclude Include="Public\CoreUObject\CoreUObjectAPI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

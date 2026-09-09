@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Public\RendererAPI.h">
+    <ClInclude Include="Public\Renderer\RendererAPI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
